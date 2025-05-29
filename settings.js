@@ -1,27 +1,20 @@
-//Made by Tuhin
-//Visit https://tu.hin.life
-//Contact me@mailtuhin.ml
-
+// settings.js
 module.exports = {
+    // Replace with your new API key from @BotFather
+    bot_api_key: "YOUR_NEW_BOT_API_KEY_HERE",
 
-    //your bot api key get it from botfather
-    bot_api_key: "7770176682:AAH7pFJoDUyilWIWumNYWRFk98Qs2I7UpKs",
-
-    //Jiosaavn api url {url format will be same as following}
-    // create your jiosaavn api from https://github.com/cachecleanerjeet/jiosaavnapi
+    // JioSaavn API endpoint
     jiosaavn_api_url: "https://jiosaavn-api.vercel.app/",
 
-    // replace with your own musicder download url {url format will be same as following}
-    // create your musicder from https://github.com/cachecleanerjeet/Musicder
+    // Musicder download URL
     musicder_url: "https://musicder-prod.vercel.app/",
 
-    // Customize your /start message {html is supported}
-    start_message: "<b>Hey, 👋👋</b>\n\n<em>Welcome to <b>Akgsmusic Bot</b>.\n\nJust send the Song's Name or, Jiosaavn Song's Link & You will get Best Matched Result(s) with their Download Link(s).\n\nBrought you by @tprojects</em>",
+    // Start message
+    start_message: "<b>Hey 👋</b>\n\n<em>Welcome to <b>Akgsmusic Bot</b>.\n\nSend a song name or JioSaavn link to get the best results with download links.\n\nBrought to you by @tprojects</em>",
 
-    // Customize your /about message {html is supported}
-    about_message: "Created by <a href='https://tu.in.life'>Air</a>.",
+    // About message
+    about_message: "Created by <a href='https://tu.hin.life'>Air</a>.",
 
-    // Customize your /help message {html is supported}
-    help_message: "Created by <a href='https://tu.in.life'>Air</a>.",
-
+    // Help message
+    help_message: "Send a song name or JioSaavn link.\n\nExample:\n<b>Kesariya</b>\n<b>https://www.jiosaavn.com/song/kesariya/xyz</b>\n\nCreated by <a href='https://tu.hin.life'>Air</a>."
 };
